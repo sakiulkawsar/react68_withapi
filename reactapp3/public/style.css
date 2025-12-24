@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.headingStyle {
+    color: blue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 4rem;
+}
+.card{
+    background-color: lightgray;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 5px;
+    padding: auto;
+    margin: 20px;
+    width: 390px;
+    display: inline-block;
+}
+.title{
+    text-align: center;
+    margin-bottom: 5px;
+    
+
+}
+
+.titleDec{
+text-align: justify;
+margin-bottom: 5px;
+text-align: center;
+}
+.footer{
+   text-align: center; 
+   font-weight: bold;
+}
