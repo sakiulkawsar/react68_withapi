@@ -25,13 +25,15 @@ function Nav() {
               <div className="dropdown-menu m-0">
                 < Link  to="blog.html" className="dropdown-item">Blog Grid</Link >
                 < Link  to="detail.html" className="dropdown-item">Blog Detail</Link >
-                < Link  to="team.html" className="dropdown-item">The Team</Link >
-                < Link  to="testimonial.html" className="dropdown-item">Testimonial</Link >
-                < Link  to="appointment.html" className="dropdown-item">Appointment</Link >
-                < Link  to="search.html" className="dropdown-item">Search</Link >
+              
               </div>
               
             </div>
+
+
+        
+
+
             < Link  to="/contact" className="nav-item nav-link">Contact</Link >
           </div>
         </div>
