@@ -10,10 +10,13 @@ function handleChange(e){
   let value = e.target.value;
   setInputs(values => ({...values , [name]:value}))
 }
+console.log(inputs);
+
 function handleSubmit(e){
   e.preventDefault();
   blogPost();
 }
+
 const blogPost = () => {
   axios.post('http://localhost/kawsar/api/blog/addBlog.php', inputs).then(function(response){
         alert(response.data);

@@ -20,6 +20,7 @@ function Nav() {
             <NavLink NavLink  to="/service" className={({ isActive }) => isActive ? "active nav-item nav-link" : "nav-item nav-link"}>Service</NavLink >
             < NavLink  to="/pricing" className={({ isActive }) => isActive ? "active nav-item nav-link" : "nav-item nav-link"}>Pricing</NavLink >
             < NavLink  to="/Blog" className={({ isActive }) => isActive ? "active nav-item nav-link" : "nav-item nav-link"}>Blog</NavLink >
+            {/* < NavLink  to="/BlogEntry1" className={({ isActive }) => isActive ? "active nav-item nav-link" : "nav-item nav-link"}>BlogEntry</NavLink > */}
             <div className="nav-item dropdown">
               < Link  to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link >
               <div className="dropdown-menu m-0">

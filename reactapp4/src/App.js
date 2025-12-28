@@ -9,6 +9,7 @@ import Nav from './Componenet/Nav';
 import Service from './Pages/Service';
 import Pricing from './Pages/Pricing'; 
 import Footer from './Componenet/Footer'; 
+// import BlogEntry1 from './Componenet/BlogEntry1';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
                     <Route path="/service" element={<Service />} />
                     <Route path="/Pricing" element={<Pricing />} />
                     <Route path="/blog" element={<Blog />} />
+                    {/* <Route path="/blogEntry1" element={<BlogEntry1 />} /> */}
                     
 
                 </Routes>
