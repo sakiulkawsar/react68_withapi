@@ -18,7 +18,7 @@ function handleSubmit(e){
 }
 
 const blogPost = () => {
-  axios.post('http://localhost/kawsar/api/blog/addBlog.php', inputs).then(function(response){
+  axios.post('http://localhost/api/blog/addBlog.php', inputs).then(function(response){
         alert(response.data);
   })
 

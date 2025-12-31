@@ -10,7 +10,7 @@ function Blog() {
   })
 
   function getBlogItems(){
-    axios.get('http://localhost/kawsar/api/blog/').then(function(response){
+    axios.get('http://localhost/api/blog/').then(function(response){
       //console.log(response.data);
       setBlogs(response.data)
     })
