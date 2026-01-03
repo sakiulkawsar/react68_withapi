@@ -25,8 +25,8 @@ const blogPost = () => {
 }
 
   return (
-    <div className='container'>
-        <h1>Pricing page</h1>
+   <div className="container" style={{ padding: "200px" }}>
+        <h1>Client contact page</h1>
 
        <form onSubmit={handleSubmit}>
   <div className="form-group">

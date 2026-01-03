@@ -7,9 +7,10 @@ function Header() {
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light">
           {/* Logo */}
-          <NavLink className="navbar-brand logo_h" to="/">
-            <img src="/image/Logo.png" alt="Logo" />
-          </NavLink>
+          {/* <NavLink className="navbar-brand logo_h" to="/"> */}
+            {/* <img src="/image/Logo.png" alt="Logo" /> */}
+          {/* </NavLink> */}
+          {/* <h2> Royal Hostelar</h2> */}
 
           {/* Mobile Toggle */}
           <button
@@ -25,11 +26,18 @@ function Header() {
           </button>
 
           {/* Menu */}
-          <div
-            className="collapse navbar-collapse offset"
-            id="navbarSupportedContent"
-          >
+        <div
+  className="collapse navbar-collapse offset"
+  id="navbarSupportedContent"
+  style={{ textAlign: "center" }}
+>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+  <li className="nav-item">
+                <NavLink className="nav-link" to="/">
+                 <h2> Royal Hostelar</h2>
+                </NavLink>
+              </li>
+
               <li className="nav-item">
                 <NavLink className="nav-link" to="/">
                   Home
